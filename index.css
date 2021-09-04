@@ -1,0 +1,59 @@
+#akan{
+    margin-top: 2rem;
+    color: rgb(34,193,195);
+color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(81,192,163,1) 1%, rgba(65,192,174,1) 23%, rgba(253,187,45,1) 56%);
+}
+#first-image{
+    height: 200px;
+    width: 200px;
+}
+#head{
+    text-align: center;
+    
+}
+#head img{
+    animation: float 4s linear;
+}
+
+#head a{
+position: relative;
+left: 70px;
+font-size: 30px;
+}
+
+#header{
+    /* background-image: url(./Assets/undraw_online_wishes_dlmr.svg); */
+}
+.image{
+    float: left;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+#span{
+ color: red;
+ font-size: 30px;
+ animation: float 2s linear infinite;
+}
+.one{
+    animation: float 5s linear infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(5rem);
+    }
+    
+}
+.input{
+    margin: 2%;
+    border-radius: 1.5rem;
+}
+
+#footer{
+    text-align: center;
+}
