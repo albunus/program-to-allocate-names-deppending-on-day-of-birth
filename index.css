@@ -1,24 +1,39 @@
 #akan{
     margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+    position: relative;
     color: rgb(34,193,195);
 color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(81,192,163,1) 1%, rgba(65,192,174,1) 23%, rgba(253,187,45,1) 56%);
 }
 #first-image{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 #head{
     text-align: center;
     
 }
-#head img{
-    animation: float 4s linear;
+#head >.image{
+    animation: float 4s linear infinite;
 }
 
 #head a{
 position: relative;
 left: 70px;
 font-size: 30px;
+}
+#head >.image{
+    position: relative;
+    float: right;
+    top: 200px;
+}
+#head>.image2{
+    height: 150px;
+    width: 150px;
+}
+#head >.image2:hover{
+    animation: float 2s linear;
 }
 
 #header{
@@ -49,14 +64,23 @@ font-size: 30px;
     }
     
 }
+#form{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
 .input{
     margin: 2%;
     border-radius: 1.5rem;
-    border: 0.5rem solid skyblue;
+    border: 0.2rem solid rgb(192, 64, 5);
     padding: 0.5rem;
     width: 250px;
+    border-collapse: collapse;
 }
 #inp{
+    position: relative;
+    right: 60px;
     background: rgb(34,140,195);
     background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%, rgba(65,146,192,1) 30%, rgba(138,162,135,1) 44%, rgba(180,171,102,1) 60%, rgba(253,187,45,1) 89%, rgba(253,187,45,1) 97%);
 }
