@@ -17,7 +17,7 @@ implimentation challanges, Error Drbugging
 ## Technologies Used
 The technologies used include Javascript,HTML and CSS 
 
- ## Design of our project
+ ## Design for the project
  https://www.figma.com/file/VMx7bOn0QOhNDj1Q2xl1IU/AKAN-NAMES?node-id=0%3A1
 
 ## Support and contact details
