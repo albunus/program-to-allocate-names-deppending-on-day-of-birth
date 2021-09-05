@@ -44,3 +44,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+#### Screenshot for the project
+
+file:///home/access/Desktop/js-program-for-names-allocation/Assets/Screenshot%20from%202021-09-05%2022-20-21.png
+![Screenshot from 2021-09-05 22-20-21](https://user-images.githubusercontent.com/87478853/132138933-eecc2abe-bdf8-44f0-b310-81af04dd6886.png)
+
+
