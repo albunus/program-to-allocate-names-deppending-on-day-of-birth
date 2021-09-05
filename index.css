@@ -98,3 +98,8 @@ font-size: 30px;
 #footer{
     text-align: center;
 }
+#result:hover{
+    background-color: white;
+    color: red;
+    
+}
