@@ -1,6 +1,27 @@
 # A program that generates Akan Names using day of birth
 
+#### This is a website that intends to give a platform tha takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name, 5th Sept 2021. version (1.0)
+#### Developed By 
+[Albunus](https://github.com/albunus)
 
+## Description
+ This website is made takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+ 
+## Setup/Installation Requirements
+
+Live link to view the project 
+
+## Known Bugs
+implimentation challanges, Error Drbugging
+
+## Technologies Used
+The technologies used include Javascript,HTML and CSS 
+
+ ## Design of our project
+ https://www.figma.com/file/VMx7bOn0QOhNDj1Q2xl1IU/AKAN-NAMES?node-id=0%3A1
+
+## Support and contact details
+📫 How to reach me **albunus.nyalita@student.moringaschool.com**
 
 MIT License
 
