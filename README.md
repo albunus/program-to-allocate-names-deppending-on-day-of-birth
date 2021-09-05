@@ -1,1 +1,1 @@
-# program-to-allocate-names-deppending-on-day-of-birth
+# A program that generates Akan Names using day of birth
