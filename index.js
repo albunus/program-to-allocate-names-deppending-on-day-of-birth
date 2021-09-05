@@ -14,8 +14,8 @@ function generateName() {
     var day = ((dayOfBirths)+(date))%7; 
     var dayOfBirth = Math.floor(day);
     if (gender === "Male") {
-        document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1] + " and your name is " + maleName[dayOfBirth - 1];
+        document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[dayOfBirth] + " and your name is " + maleName[dayOfBirth ];
     } else if(gender === "Female") {
-        document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1] + " and your name is " + femaleName[dayOfBirth - 1];
+        document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[dayOfBirth ] + " and your name is " + femaleName[dayOfBirth ];
     }
 }
