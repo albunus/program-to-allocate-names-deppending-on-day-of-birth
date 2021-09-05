@@ -9,7 +9,7 @@
  
 ## Setup/Installation Requirements
 
-Live link to view the project 
+Live link to view the project  https://albunus.github.io/program-to-allocate-names-deppending-on-day-of-birth/
 
 ## Known Bugs
 implimentation challanges, Error Drbugging
