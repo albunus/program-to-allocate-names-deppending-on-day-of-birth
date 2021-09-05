@@ -33,7 +33,7 @@ font-size: 30px;
 #span{
  color: red;
  font-size: 30px;
- animation: float 2s linear infinite;
+ 
 }
 .one{
     animation: float 5s linear infinite;
@@ -52,6 +52,23 @@ font-size: 30px;
 .input{
     margin: 2%;
     border-radius: 1.5rem;
+    border: 0.5rem solid skyblue;
+    padding: 0.5rem;
+    width: 250px;
+}
+#inp{
+    background: rgb(34,140,195);
+    background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%, rgba(65,146,192,1) 30%, rgba(138,162,135,1) 44%, rgba(180,171,102,1) 60%, rgba(253,187,45,1) 89%, rgba(253,187,45,1) 97%);
+}
+#input{
+    margin: 2rem;
+}
+
+#submitButton{
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 45%;
 }
 
 #footer{

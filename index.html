@@ -30,21 +30,20 @@
                 site is designed to ease knowledge
                 of the day of the week that someone
                 was born.The process is achieved by<br>
-                taking user's birthdayand calculates
+                taking user's birthday and calculates
                 the day of the week they were born and
                 then depending on their gender outputs
                 their Akan Name.
                 <h4> <span id="span">M</span>ine is wow.<span id="span">G</span>et to know yours</h4>
             </p>
-
+            <div id="inp" class="card">
             <form id="form" method="POST">
                 <fieldset>
                     <legend>Input your DOB to get started:</legend>
-                    <div id="input">
-                        Date:<input type="number" id="date" class="input"><br>
-                        Month:<input type="number" id="month" class="input"><br>
-                        Year:<input type="number" id="year" class="input"><br>
-                    </div>
+                  
+                        Date:<input type="number" id="date" class="input" placeholder="DD" onkeydown="return false" min="1" max="31" required><br>
+                        Month:<input type="number" id="month" class="input" placeholder="MM" onkeydown="return false" min="1" max="12" required><br>
+                        Year:<input type="number" id="year" class="input" placeholder="YYYY" value="2021" onkeydown="return false" required><br>
                     <select id="gender">
                         <option value="Female">Female</option>
                         <option value="Male">Male</option>
@@ -52,9 +51,10 @@
                 </fieldset>
             </form>
             <br>
-            <input type="submit" value="Submit" id="submitButton" class="btn btn-primary"
+            <input type="submit" value="Submit" id="submitButton" class="btn-primary"
                 onclick="generateName(); return false" />
             <h2 class="text-center" id="result">Results:</h2>
+            </div>
         </div>
     </div>
 
