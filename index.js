@@ -9,11 +9,15 @@ function generateName() {
     var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
     var dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    if (gender === "Male") {
+    if (dates <= 0 || dates> 31) {
+		alert("Please enter a valid dates!")
+    }else if (month <=0 || month>12 ) {
+        alert("Please enter a valid moth!");
+    }else if(gender === "Male") {
         document.getElementById("result").innerHTML ="Amazing!" +"You were born on " + dayOfWeek[dayOfBirth] + " and your name is " + maleName[dayOfBirth ];
     } else if(gender === "Female") {
         document.getElementById("result").innerHTML ="Amazing!" +"You were born on " + dayOfWeek[dayOfBirth ] + " and your name is " + femaleName[dayOfBirth ];
-    };
+    }
     function myFunction() {
         document.getElementById("myForm").reset();
       }
