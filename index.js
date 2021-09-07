@@ -18,7 +18,8 @@ function generateName() {
     } else if(gender === "Female") {
         document.getElementById("result").innerHTML ="Amazing!" +"You were born on " + dayOfWeek[dayOfBirth ] + " and your name is " + femaleName[dayOfBirth ];
     }
-    function myFunction() {
-        document.getElementById("myForm").reset();
-      }
+    
 }
+function myFunction() {
+    document.getElementById("form").reset();
+  }
